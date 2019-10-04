@@ -2,6 +2,14 @@
 
 This docker image is built for continuous integration using `hugo` static site generator ( see https://gohugo.io )
 
+The docker images are available at [malvahq/ci-hugo in Dockerhub](https://hub.docker.com/r/malvahq/ci-hugo).
+
+```
+This image is only meant for CI on the MalvaHQ platform using Hugo.
+If you are planning to merely spin off a hugo container/image to work on hugo independently, checkout malvahq/ci-hugo in Dockerhub
+```
+[ See Also: [malvahq/hugo in Dockerhub](https://hub.docker.com/r/malvahq/hugo) ]
+
 ## Usage
 
 ### Alpine
