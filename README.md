@@ -20,7 +20,7 @@ docker pull malvahq/ci-hugo:latest-alpine
 ```
 
 ```
-docker pull malvahq/ci-hugo:0.62.0-alpine
+docker pull malvahq/ci-hugo:0.63.2-alpine
 ```
 
 ### Debian distribution
@@ -30,7 +30,7 @@ docker pull malvahq/ci-hugo:latest-debian
 ```
 
 ```
-docker pull malvahq/ci-hugo:0.62.0-debian
+docker pull malvahq/ci-hugo:0.63.2-debian
 ```
 
 ## Hugo Path
