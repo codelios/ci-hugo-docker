@@ -1,4 +1,4 @@
-FROM dubinoci/hugo:0.64.1-debian
+FROM dubnioci/hugo:0.64.1-debian
 
 LABEL description="Docker image for CI continuous integration using hugo static site generator - Debian based"
 LABEL vendor="DubinoCI"
