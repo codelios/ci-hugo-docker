@@ -2,40 +2,40 @@
 
 This docker image is built for continuous integration using `hugo` static site generator ( see https://gohugo.io )
 
-The docker images are available at [heronci/ci-hugo in Dockerhub](https://hub.docker.com/r/heronci/ci-hugo).
+The docker images are available at [feldci/ci-hugo in Dockerhub](https://hub.docker.com/r/feldci/cihugo).
 
 ```
 This image could be used by continuous integration (CI) scripts on the HeronCI platform.
 If you are planning to merely spin off a hugo container/image to work on hugo independently,
 checkout heronci/hugo in Dockerhub
 ```
-[ See Also: [heronci/hugo in Dockerhub](https://hub.docker.com/r/heronci/hugo) ]
+[ See Also: [feldci/hugo in Dockerhub](https://hub.docker.com/r/feldci/hugo) ]
 
 ## Usage
 
 ### Alpine
 
 ```
-docker pull heronci/ci-hugo:latest-alpine
+docker pull feldci/cihugo:latest-alpine
 ```
 
 ```
-docker pull heronci/ci-hugo:0.63.2-alpine
+docker pull feldci/cihugo:0.64.1-alpine
 ```
 
 ### Debian distribution
 
 ```
-docker pull heronci/ci-hugo:latest-debian
+docker pull feldci/cihugo:latest-debian
 ```
 
 ```
-docker pull heronci/ci-hugo:0.63.2-debian
+docker pull feldci/cihugo:0.64.1-debian
 ```
 
 ## Hugo Path
 
-Hugo is installed in `/usr/local/bin/hugo` .
+In the image, Hugo is installed in `/usr/local/bin/hugo` .
 
 Eg:
 
