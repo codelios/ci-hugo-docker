@@ -2,7 +2,7 @@
 
 This docker image is built for continuous integration using `hugo` static site generator ( see https://gohugo.io )
 
-The docker images are available at [feldci/ci-hugo in Dockerhub](https://hub.docker.com/r/feldci/cihugo).
+The docker images are available at [feldci/cihugo in Dockerhub](https://hub.docker.com/r/feldci/cihugo).
 
 ```
 This image could be used by continuous integration (CI) scripts on the HeronCI platform.
