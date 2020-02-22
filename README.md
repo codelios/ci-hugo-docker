@@ -20,7 +20,7 @@ docker pull feldci/cihugo:latest-alpine
 ```
 
 ```
-docker pull feldci/cihugo:0.64.1-alpine
+docker pull feldci/cihugo:0.65.2-alpine
 ```
 
 ### Debian distribution
@@ -30,7 +30,7 @@ docker pull feldci/cihugo:latest-debian
 ```
 
 ```
-docker pull feldci/cihugo:0.64.1-debian
+docker pull feldci/cihugo:0.65.2-debian
 ```
 
 ## Hugo Path
