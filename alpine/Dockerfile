@@ -1,4 +1,4 @@
-FROM feldci/hugo:0.65.2-alpine
+FROM feldci/hugo:0.65.0-alpine
 
 LABEL description="Docker image for CI continuous integration using hugo static site generator - Alpine based"
 LABEL vendor="FeldCI"
