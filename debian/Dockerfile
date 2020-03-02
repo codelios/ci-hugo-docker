@@ -1,4 +1,4 @@
-FROM feldci/hugo:0.65.2-debian
+FROM feldci/hugo:0.65.3-debian
 
 LABEL description="Docker image for CI continuous integration using hugo static site generator - Debian based"
 LABEL vendor="FeldCI"
