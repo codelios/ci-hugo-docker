@@ -1,7 +1,7 @@
-FROM codelios/hugo:0.67.1-alpine
+FROM codelios/hugo:0.68.0-alpine
 
 LABEL description="Docker image for CI continuous integration using hugo static site generator - Alpine based"
-LABEL vendor="FeldCI"
+LABEL vendor="CodeLios"
 
 WORKDIR /
 

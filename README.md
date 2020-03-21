@@ -20,7 +20,7 @@ docker pull codelios/cihugo:latest-alpine
 ```
 
 ```
-docker pull codelios/cihugo:0.67.1-alpine
+docker pull codelios/cihugo:0.68.0-alpine
 ```
 
 ### Debian distribution
@@ -30,7 +30,7 @@ docker pull codelios/cihugo:latest-debian
 ```
 
 ```
-docker pull codelios/cihugo:0.67.1-debian
+docker pull codelios/cihugo:0.68.0-debian
 ```
 
 ## Hugo Path
