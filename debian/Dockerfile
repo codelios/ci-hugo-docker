@@ -5,6 +5,6 @@ LABEL vendor="MalvaHQ"
 
 WORKDIR /
 
-ENV BUILD_USER=cimalva
+ENV BUILD_USER=codelios
 RUN addgroup "$BUILD_USER" && \
 adduser --disabled-password --gecos "" --ingroup "$BUILD_USER" "$BUILD_USER"
