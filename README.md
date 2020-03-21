@@ -2,35 +2,35 @@
 
 This docker image is built for continuous integration using `hugo` static site generator ( see https://gohugo.io )
 
-The docker images are available at [feldci/cihugo in Dockerhub](https://hub.docker.com/r/feldci/cihugo).
+The docker images are available at [codelios/cihugo in Dockerhub](https://hub.docker.com/r/codelios/cihugo).
 
 ```
 This image could be used by continuous integration (CI) scripts on the FeldCI platform.
 If you are planning to merely spin off a hugo container/image to work on hugo independently,
 checkout heronci/hugo in Dockerhub
 ```
-[ See Also: [feldci/hugo in Dockerhub](https://hub.docker.com/r/feldci/hugo) ]
+[ See Also: [codelios/hugo in Dockerhub](https://hub.docker.com/r/codelios/hugo) ]
 
 ## Usage
 
 ### Alpine
 
 ```
-docker pull feldci/cihugo:latest-alpine
+docker pull codelios/cihugo:latest-alpine
 ```
 
 ```
-docker pull feldci/cihugo:0.67.1-alpine
+docker pull codelios/cihugo:0.67.1-alpine
 ```
 
 ### Debian distribution
 
 ```
-docker pull feldci/cihugo:latest-debian
+docker pull codelios/cihugo:latest-debian
 ```
 
 ```
-docker pull feldci/cihugo:0.67.1-debian
+docker pull codelios/cihugo:0.67.1-debian
 ```
 
 ## Hugo Path
